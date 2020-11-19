@@ -1,0 +1,36 @@
+.1chast p {
+    color: green;
+}
+
+.list a[href^='https'] {
+    color: red;
+}
+
+.list>li:last-child a{
+    background-color: green;
+}
+
+.holder ul + p{
+    font-size: 26px;
+}
+
+.text-box h3:first-child {
+    color:pink
+}
+
+#greycol {
+    color:grey
+}
+
+.text-box div p {
+    color:red
+}
+
+
+.text-box p:nth-last-of-type(2){
+    color:green
+}
+
+.yellow {
+    color: yellow;
+}
